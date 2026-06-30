@@ -51,11 +51,11 @@
     },
     {
       "name": "豆哔",
-      "version": 9,
+      "version": 10,
       "remark": "🍃豆儿出品，不属精品！内容来自网络 仅供学习测试！",
       "env": "bili_cookie##bili_cookie 用于获取个性化推荐和高清视频",
       "webSite": "doubi",
-      "codeID": "9Djl2QaDMOIgvhl8tYAhdVowEsmuPZpA",
+      "codeID": "AQ3lqQzcgQXsgVfoxPLP3dkJdZkI4SBE",
       "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Zhi_doubi.txt",
       "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/bili.png",
       "type": 101
