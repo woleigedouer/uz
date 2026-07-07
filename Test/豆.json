@@ -50,6 +50,26 @@
         "type": 101
     },
     {
+        "name": "双星",
+        "version": 1,
+        "webSite": "https://1.star2.cn",
+        "remark": "🍃豆儿出品，不属精品！",
+        "codeID": "GyoTSkuFNxE0VSIMkxns2E1UgYqN50H0",
+        "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/双星.txt",
+        "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/双星.png",
+        "type": 101
+    },
+    {
+        "name": "综合",
+        "version": 1,
+        "webSite": "https://www.juhebd.com",
+        "remark": "🍃豆儿出品，不属精品！",
+        "codeID": "cO6KdWa0bdgFGUuW4UGYMQi4IMFlXCLc",
+        "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/综合.txt",
+        "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/综合.png",
+        "type": 101
+    },
+    {
       "name": "豆哔",
       "version": 10,
       "remark": "🍃豆儿出品，不属精品！内容来自网络 仅供学习测试！",
@@ -118,6 +138,16 @@
       "codeID": "DJK1dnfy8oR7EMg41pJ04kOzc6XCgFtT",
       "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/稀饭.txt",
       "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/稀饭.png",
+      "type": 101
+    },
+    {
+      "name": "稀饭²",
+      "version": 1,
+      "webSite": "https://next.xifanacg.com",
+      "remark": "🍃豆儿出品，不属精品！",
+      "codeID": "LOrpo8IhPPTFTFry4CdlY5xq1BCJr9xe",
+      "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/稀饭2.txt",
+      "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/稀饭2.png",
       "type": 101
     },
     {
