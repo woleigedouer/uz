@@ -1,5 +1,5 @@
 //@name:TG搜
-//@version:29
+//@version:30
 //@webSite:https://t.me/s/
 //@env:TG搜频道列表##格式 频道名称1@频道id1|频道名称2@频道id2
 //@remark:
@@ -59,7 +59,7 @@ const DEFAULT_CHANNELS = [
     { name: '偶豆豆', id: 'odoudouo' },
     { name: '豆儿123', id: 'zyfb123' },
     { name: 'LEO资源', id: 'leoziyuan' },
-    { name: '资源宇宙', id: 'tgsearchers6' }
+    { name: '资源宇宙', id: 'tgsearchers7' }
 ]
 
 const appConfig = {
@@ -155,6 +155,9 @@ const providerRegexMap = Object.values(CLOUD_PROVIDERS).map(provider => ({
 // 预编译剧集信息提取正则表达式，一次匹配解决所有情况
 // 支持: "更新至 第28集", "第28集", "全28集", "共28集", "28集全", "更新至28集", "更至EP01", "EP167集", "更新 EP167集", "更新4集", "S01 E27", "S01 E27已更新" 等格式
 const EPISODE_COMBINED_REGEX = /((?:更新至|全|第|共)\s*(?:第)?\s*\d+\s*集)|((?:更新至|全|第|共)\s*(?:第)?\s*[一二三四五六七八九十百千万亿]+\s*集)|(\d+\s*集\s*全)|([一二三四五六七八九十百千万亿]+\s*集\s*全)|((?:更至|更)\s*(?:EP)?\s*\d+)|((?:更新\s*)?EP\d+集)|(更新\d+集)|(S\d+\s*E\d+(?:已更新)?)/;
+
+// 预编译标题分类前缀清理正则，兼容"电影 火遮眼"、"电影：火遮眼"、"剧集：京城奇探"等格式
+const TITLE_CATEGORY_PREFIX_REGEX = /^(?:剧集|电视剧|动漫|电影|综艺|纪录片|动画)\s*(?:[：:|｜]\s*|\s+)/;
 
 // 预编译图片URL提取正则表达式
 const IMAGE_URL_REGEX = /url\(['"]?(https?:\/\/[^'")]+)['"]?\)/;
@@ -362,9 +365,9 @@ async function getTGList(url, isSearchContext = false){
 	                    .replace(/^[^\u4e00-\u9fa5A-Za-z0-9\(\[\{（【《「『〔〖〈﹝［]+/, '')
 	                    .trim();
 
-	                // 1.5) 去掉开头的分类标签，如"电视剧 "、"动漫 "、"电影 "、"综艺｜"等
+	                // 1.5) 去掉开头的分类标签，如"剧集："、"电影："、"电视剧 "、"综艺｜"等
 	                cleanedTitle = cleanedTitle
-	                    .replace(/^(电视剧|动漫|电影|综艺|纪录片|动画)[\s|｜]+/, '')
+	                    .replace(TITLE_CATEGORY_PREFIX_REGEX, '')
 	                    .trim();
 
 	                // --- 关键修改：在去掉括号之前，先从完整标题中提取剧集信息 ---
