@@ -111,6 +111,26 @@
       "type": 101
     },
     {
+      "name": "橘汁",
+      "version": 1,
+      "webSite": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+      "remark": "🍃豆儿出品，不属精品！",
+      "codeID": "MTVWIixdkpmqkzK71KQrsny2iBY4ejPT",
+      "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/橘汁.txt",
+      "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/橘汁.png",
+      "type": 101
+    },
+    {
+      "name": "山楂",
+      "version": 1,
+      "webSite": "http://qkys.qukanwh.com",
+      "remark": "🍃豆儿出品，不属精品！",
+      "codeID": "7MySnl2Qq4zxrtiNWTIoRY96qRM7WGuR",
+      "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/山楂.txt",
+      "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/山楂.png",
+      "type": 101
+    },
+    {
       "name": "歪比",
       "version": 1,
       "webSite": "https://wbbb1.com",
@@ -128,6 +148,26 @@
       "codeID": "PMO2XOPnN8tk03SGld4srm9eGZDUB2pE",
       "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/金牌.txt",
       "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/金牌.png",
+      "type": 101
+    },
+    {
+      "name": "星芽",
+      "version": 1,
+      "webSite": "https://app.whjzjx.cn",
+      "remark": "🍃豆儿出品，不属精品！",
+      "codeID": "WTbQpyKJWjjafsTGCPfe5mycPFAvOXy0",
+      "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/星芽.txt",
+      "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/星芽.png",
+      "type": 101
+    },
+    {
+      "name": "番薯",
+      "version": 1,
+      "webSite": "https://yoapp.bytegooty.com",
+      "remark": "🍃豆儿出品，不属精品！",
+      "codeID": "OFgCwnU3m16dZ4d6xMXNusNPOfSXnneN",
+      "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/番薯.txt",
+      "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/番薯.png",
       "type": 101
     },
     {
@@ -168,6 +208,16 @@
       "codeID": "BcgDSJgqke0aKBWbNnCVJUIgDQtofsaX",
       "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/韩小圈.txt",
       "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/韩小圈.png",
+      "type": 101
+    },
+    {
+      "name": "大师兄",
+      "version": 1,
+      "webSite": "http://itv666.cc/aowu/config.webp",
+      "remark": "🍃豆儿出品，不属精品！",
+      "codeID": "qJuBL8UsRPnMPXFYeaDjD8VQO83OPZRw",
+      "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/大师兄.txt",
+      "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/大师兄.png",
       "type": 101
     },
     {
