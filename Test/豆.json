@@ -61,10 +61,10 @@
     },
     {
         "name": "综合",
-        "version": 1,
+        "version": 2,
         "webSite": "https://www.juhebd.com",
         "remark": "🍃豆儿出品，不属精品！",
-        "codeID": "cO6KdWa0bdgFGUuW4UGYMQi4IMFlXCLc",
+        "codeID": "aqH4vGSxVOlzzz7oEc5FTS9DEML8Ov27",
         "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/综合.txt",
         "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/综合.png",
         "type": 101
