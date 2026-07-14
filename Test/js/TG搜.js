@@ -1,13 +1,13 @@
 //@name:TG搜
-//@version:30
-//@webSite:https://t.me/s/
+//@version:31
+//@webSite:https://telegram.me
 //@env:TG搜频道列表##格式 频道名称1@频道id1|频道名称2@频道id2
 //@remark:
 //@order: A17
 
 // ignore
 // 不支持导入，这里只是本地开发用于代码提示
-// 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
+// 如需添加通用依赖，请联系 https://telegram.me/uzVideoAppbot
 import {
     FilterLabel,
     FilterTitle,
@@ -63,7 +63,7 @@ const DEFAULT_CHANNELS = [
 ]
 
 const appConfig = {
-    _webSite: 'https://t.me/s/',
+    _webSite: 'https://telegram.me',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量
@@ -258,7 +258,7 @@ async function getVideoList(args) {
         // 初始化频道列表（仅首次执行）
         await initChannels()
 
-        let endUrl = appConfig.webSite + args.url
+        let endUrl = `${appConfig.webSite}/s/${args.url}`
         if(args.page == 1) {
             _videoListPageMap[args.url] = ""
         }else {
@@ -584,7 +584,7 @@ async function searchVideo(args) {
 
         // 🚀 核心优化：并发请求所有频道
         const searchPromises = channels.map(async (element) => {
-            let endUrl = appConfig.webSite + element + "?q=" + args.searchWord
+            let endUrl = `${appConfig.webSite}/s/${element}?q=${args.searchWord}`
 
             if(args.page == 1) {
                 _searchListPageMap[element] = ""
