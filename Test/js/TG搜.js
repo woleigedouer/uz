@@ -1,13 +1,13 @@
 //@name:TG搜
-//@version:31
-//@webSite:https://telegram.me
+//@version:32
+//@webSite:https://t.me
 //@env:TG搜频道列表##格式 频道名称1@频道id1|频道名称2@频道id2
 //@remark:
 //@order: A17
 
 // ignore
 // 不支持导入，这里只是本地开发用于代码提示
-// 如需添加通用依赖，请联系 https://telegram.me/uzVideoAppbot
+// 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
 import {
     FilterLabel,
     FilterTitle,
@@ -63,7 +63,7 @@ const DEFAULT_CHANNELS = [
 ]
 
 const appConfig = {
-    _webSite: 'https://telegram.me',
+    _webSite: 'https://t.me',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量

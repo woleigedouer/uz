@@ -41,8 +41,8 @@
     },
     {
         "name": "TG搜",
-        "version": 31,
-        "webSite": "https://telegram.me",
+        "version": 32,
+        "webSite": "https://t.me",
         "remark": "🍃豆儿出品，不属精品！",
         "env": "TG搜频道列表##格式 频道名称1@频道id1|频道名称2@频道id2",
         "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/TG搜.js",
