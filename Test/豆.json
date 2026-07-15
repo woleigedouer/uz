@@ -92,10 +92,10 @@
     },
     {
       "name": "瓜子",
-      "version": 2,
-      "webSite": "https://api.w32z7vtd.com",
+      "version": 3,
+      "webSite": "https://apinew.uozvr.com",
       "remark": "🍃豆儿出品，不属精品！",
-      "codeID": "GsrfFOqB7JtHhaMDFHw9Xv3uHrCGSdwe",
+      "codeID": "C7pPXVlWMZl9ZJwZSGGes0DTcC4VnjIY",
       "api": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/js/瓜子.txt",
       "logo": "https://raw.githubusercontent.com/woleigedouer/uz/refs/heads/main/Test/image/瓜子.png",
       "type": 101
